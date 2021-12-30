@@ -62,7 +62,7 @@ redis().zRevRankUnion(["31.12.2021","30.12.2021"],"MemberID").then((res) => cons
 
 ## Utils Functions
 
-#### getKey (*...options*) : Date
+#### getKey (*...options*) : string
 - options must be **string**
 - getKey function return giving time to string
 - Today date : 31.12.2021
