@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    min-height: 100vh;
+}
+
+body {
+    padding: 20px 0px;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #101010 !important;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+}
+
+
+.col {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.dataParent {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.dataHead,
+.row_item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fixedTop {
+    position: fixed;
+    top: 0%;
+    transition: all 1s;
+    border-radius: 0px 0px 25px 25px;
+    padding: 20px;
+    background-color: #ACACAC;
+    z-index: 999;
+}
+
+.fixedTop span {
+    color: #101010 !important;
+}
+
+.dataHead {
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+
+.dataHead span {
+    text-align: center;
+    font-size: 2.1vw;
+    color: #ACACAC;
+    flex: 1;
+}
+
+.dataRow {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dataRow .row_item {
+    /* clip-path: polygon(0% 0, 95% 0, 100% 100%, 0% 100%); */
+    margin-top: 30px;
+    background-color: #1C1C1C;
+    padding: 20px 0px;
+    width: 100%;
+    transition: transform .5s;
+    color: #ACACAC;
+    border-left: 1px solid #1C1C1C;
+}
+
+.dataRow .row_item:first-child {
+    border-left: 15px solid #FFD700;
+    box-shadow: rgba(255, 215, 0, 0.45) 0px 30px 60px -12px inset, rgba(0, 0, 0, 1) 0px 18px 36px -18px inset;
+    transform: scale(1.2);
+}
+
+.dataRow .row_item:nth-child(2) {
+    border-left: 10px solid #C0C0C0;
+    box-shadow: rgba(192, 192, 192, 0.45) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transform: scale(1.15);
+}
+
+.dataRow .row_item:nth-child(3) {
+    border-left: 5px solid #cd7f32;
+    box-shadow: rgba(205, 127, 50, 0.45) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transform: scale(1.1);
+}
+
+.dataRow .row_item:first-child:hover {
+    transform: scale(1.2);
+}
+
+.dataRow .row_item:nth-child(2):hover {
+    transform: scale(1.15);
+}
+
+.dataRow .row_item:nth-child(3):hover {
+    transform: scale(1.1);
+}
+
+.dataRow .row_item:hover {
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+    transform: scale(.95);
+    cursor: pointer;
+}
+
+.dataRow .row_item div {
+    text-align: center;
+    flex: 1;
+}
+
+.row {
+    height: 100%;
+    justify-content: center;
+}
+
+.money_td span {
+    height: 100%;
+    color: #1DF364;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.dataRow .row_item div:nth-child(5) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add {
+    /* color: red!important; */
+}
+
+.daysRankDiff {
+    margin-left: 10px;
+    font-weight: 800;
+    margin-top: 1px;
+    letter-spacing: 2px;
+}
+
+.downToTriangle {
+    transform: rotateX(180deg);
+    color: red;
+}
+
+.squareStable {
+    color: yellow
+}
+
+.notLoading {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px !important;
+}
+
+.text {
+    text-transform: uppercase;
+}
+
+.yellow {
+    color: yellow !important
+}
+
+.green {
+    color: green !important;
+}
+
+.red {
+    color: red !important;
+}
+
+button,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: 0px !important;
+}
+
+@media screen and (max-width:1024px) {
+    .dataRow .row_item {
+        transform: scale(1) !important;
+        font-size: 2.1vw;
+    }
+}
