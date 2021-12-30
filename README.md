@@ -101,5 +101,5 @@ console.log( getKey("isallweekday", getKey("yesterday") ));
 - This functions need the **binding socket**
 
 ```nodejs 
-getTopLeaders.bind(io)
+getTopLeaders.bind(io)()
 ```
