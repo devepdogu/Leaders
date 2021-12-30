@@ -10,3 +10,8 @@ npm i express mongodb socket.io tedis
 ```nodejs
 npm i @react-icons/all-files bootstrap react-icons socket.io-client
 ```
+
+
+## Redis
+- *Data Type :  Sorted Sets 
+- Data Store Value : 
