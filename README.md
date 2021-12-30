@@ -106,4 +106,4 @@ getTopLeaders.bind(io)()
 
 ## Screen Shot
 
-![Uygulama Ekran Görüntüsü](https://dogukandemir.net/img/screenOfLeader.jpg)
+![Uygulama Ekran Görüntüsü](https://dogukandemir.net/img/Leader.jpg)
