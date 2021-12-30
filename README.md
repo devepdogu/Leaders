@@ -103,3 +103,7 @@ console.log( getKey("isallweekday", getKey("yesterday") ));
 ```nodejs 
 getTopLeaders.bind(io)()
 ```
+
+## Screen Shot
+
+![Uygulama Ekran Görüntüsü](https://dogukandemir.net/img/screenOfLeader.png)
